@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Mobile [
+    <!ELEMENT Mobile (company,Model,Price,Accessories)>
+    <!ELEMENT company (#PCDATA)>
+    <!ELEMENT Model   (#PCDATA)>
+    <!ELEMENT Price   (#PCDATA)>
+    <!ELEMENT Accessories (#PCDATA)>
+
+
+    <!ATTLIST Model type CDATA "camera">
+
+    <!ENTITY HP "head phone is gone">
+    <!ENTITY HP "charger type C">
+    <!ENTITY HP "starters kits for free">
+]>
+
+
+
+<Mobile>
+<company>MY Ahsen </company>
+<Model type="camera">tecno spark 20 pro plus</Model>
+<Price>52000</Price>
+<Accessories>&HP;,&HP;</Accessories>
+</Mobile>
